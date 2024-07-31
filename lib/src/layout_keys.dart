@@ -98,7 +98,7 @@ const List<List> _defaultEnglishLayout = [
   ],
   // Row 5
   const [
-    VirtualKeyboardKeyAction.SwithLanguage,
+    VirtualKeyboardKeyAction.SwitchLanguage,
     '@',
     VirtualKeyboardKeyAction.Space,
     '&',
@@ -168,7 +168,7 @@ const List<List> _defaultArabicLayout = [
   ],
   // Row 5
   const [
-    VirtualKeyboardKeyAction.SwithLanguage,
+    VirtualKeyboardKeyAction.SwitchLanguage,
     '@',
     VirtualKeyboardKeyAction.Space,
     '-',

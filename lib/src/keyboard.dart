@@ -1,14 +1,14 @@
 part of fabizi_virtual_keyboard;
 
-/// The default keyboard height. Can we overriden by passing
+/// The default keyboard height. Can we override by passing
 ///  `height` argument to `VirtualKeyboard` widget.
 const double _virtualKeyboardDefaultHeight = 300;
 
-const int _virtualKeyboardBackspaceEventPerioud = 250;
+const int _virtualKeyboardBackspaceEventPeriod = 250;
 
 /// Virtual Keyboard widget.
 class VirtualKeyboard extends StatefulWidget {
-  /// Keyboard Type: Should be inited in creation time.
+  /// Keyboard Type: Should be initiated in creation time.
   final VirtualKeyboardType type;
 
   /// Callback for Key press event. Called with pressed `Key` object.
@@ -244,7 +244,7 @@ class _VirtualKeyboardState extends State<VirtualKeyboard> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.center,
-          // Generate keboard keys
+          // Generate keyboard keys
           children: items,
         ),
       );
@@ -282,14 +282,14 @@ class _VirtualKeyboardState extends State<VirtualKeyboard> {
     Widget? actionKey;
 
     // Switch the action type to build action Key widget.
-    switch (key.action ?? VirtualKeyboardKeyAction.SwithLanguage) {
+    switch (key.action ?? VirtualKeyboardKeyAction.SwitchLanguage) {
       case VirtualKeyboardKeyAction.Backspace:
         actionKey = GestureDetector(
             onLongPress: () {
               longPress = true;
               // Start sending backspace key events while longPress is true
               Timer.periodic(
-                  Duration(milliseconds: _virtualKeyboardBackspaceEventPerioud),
+                  Duration(milliseconds: _virtualKeyboardBackspaceEventPeriod),
                   (timer) {
                 if (longPress) {
                   _onKeyPress(key);
@@ -324,7 +324,7 @@ class _VirtualKeyboardState extends State<VirtualKeyboard> {
           color: textColor,
         );
         break;
-      case VirtualKeyboardKeyAction.SwithLanguage:
+      case VirtualKeyboardKeyAction.SwitchLanguage:
         actionKey = GestureDetector(
             onTap: () {
               setState(() {
