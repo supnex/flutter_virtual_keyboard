@@ -1,4 +1,4 @@
-import 'package:virtual_keyboard_multi_language/virtual_keyboard_multi_language.dart';
+import 'package:fabizi_virtual_keyboard/virtual_keyboard_multi_language.dart';
 
 class CustomLayoutKeys extends VirtualKeyboardLayoutKeys {
   @override

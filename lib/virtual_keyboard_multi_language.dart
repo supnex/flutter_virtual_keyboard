@@ -1,4 +1,4 @@
-library virtual_keyboard_multi_language;
+library fabizi_virtual_keyboard;
 
 import 'dart:async';
 import 'package:flutter/material.dart';

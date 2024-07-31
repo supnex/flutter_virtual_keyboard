@@ -1,4 +1,4 @@
-part of virtual_keyboard_multi_language;
+part of fabizi_virtual_keyboard;
 
 /// Type for virtual keyboard key.
 ///

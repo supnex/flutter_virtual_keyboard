@@ -1,4 +1,4 @@
-part of virtual_keyboard_multi_language;
+part of fabizi_virtual_keyboard;
 
 /// The default keyboard height. Can we overriden by passing
 ///  `height` argument to `VirtualKeyboard` widget.

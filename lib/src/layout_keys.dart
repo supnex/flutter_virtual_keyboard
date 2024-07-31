@@ -1,4 +1,4 @@
-part of virtual_keyboard_multi_language;
+part of fabizi_virtual_keyboard;
 //import '../virtual_keyboard_multi_language.dart';
 
 abstract class VirtualKeyboardLayoutKeys {

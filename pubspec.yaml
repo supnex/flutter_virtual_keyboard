@@ -1,6 +1,6 @@
-name: virtual_keyboard_multi_language
-description: A simple package for dispaying virtual keyboards on a devices like kiosks and ATMs. The library is written in Dart and has no native code dependancy. 
-version: 1.1.0
+name: fabizi_virtual_keyboard
+description: This is a fork of the virtual_keyboard_multi_language for the fabizi app which contains our improvements to the system.
+version: 1.0.0
 #author: Ahmed El-Araby <ahmed-eg@live.com>
 homepage: https://github.com/ahmed-eg/virtual_keyboard_multi_language
 

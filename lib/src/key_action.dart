@@ -1,4 +1,4 @@
-part of virtual_keyboard_multi_language;
+part of fabizi_virtual_keyboard;
 
 /// Virtual keyboard actions.
 enum VirtualKeyboardKeyAction { Backspace, Return, Shift, Space, SwithLanguage }
